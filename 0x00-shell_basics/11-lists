@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -maxdepth 1 -printf "%s %p\n" , -printf "\n" -printf "../\n" -execdir find /boot -maxdepth 1 -printf "%s %p\n" , -printf "\n"
+ls -al . .. /boot
